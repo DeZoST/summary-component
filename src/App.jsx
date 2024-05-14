@@ -11,12 +11,12 @@ function App() {
       <section className="lg:rounded-3xl lg:shadow-xl lg:flex">
         <section className="lg:flex-1 lg:rounded-3xl rounded-b-3xl bg-gradient-to-t from-light-royale-blue to-light-slate-blue text-light-lavender">
           <div className="flex flex-col items-center justify-center gap-6 p-10 text-center">
-            <h2 className="text-xl font-bold">Your Result</h2>
+            <h3 className="text-xl font-bold">Your Result</h3>
             <div className="p-10 rounded-full bg-gradient-to-t to-violet-blue from-persian-blue">
               <p className="text-center">
-                <span className="block text-6xl font-bold text-white">
+                <h2 className="block text-6xl font-bold text-white">
                   {averageScore}
-                </span>{" "}
+                </h2>{" "}
                 of 100
               </p>
             </div>
